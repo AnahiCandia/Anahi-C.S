@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     if (intento === numeroSecreto) {
-      resultado.textContent = "🎉 ¡Felicidades Anahi! Adivinaste el número 🎉";
+      resultado.textContent = "🎉 ¡Felicidades! Adivinaste el número 🎉";
       resultado.style.color = "green";
     } else if (intento < numeroSecreto) {
       resultado.textContent = "El número secreto es mayor ⬆️";
